@@ -40,20 +40,5 @@ if( examGrade >= 70 ){
 else{
     console.log( "You didn't pass today, but you may attempt it a second time!" );
 }
-
-
-/* 
-    You are going to have 3 numbers.
-    Print them from highest to lowest.
-
-    Example:
-    24, 11, 35
-    35 > 24 > 11
-
-    11, 24, 35
-    35 > 24 > 11
-
-    35, 11, 24
-    35 > 24 > 11
-
-*/
+let numers;
+console.log( numers );

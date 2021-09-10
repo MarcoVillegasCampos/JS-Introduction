@@ -58,7 +58,8 @@ console.log( "Result: ", result );
     4. + -
     5. > < >= <= == === != !==
     6. || &&
-    4. =
+    7. ++ -- += -= *= /= %= 
+    8. =
 */
 
 let result2 = 10 % 3;
@@ -91,3 +92,16 @@ let compare2 = num1 !== num2;
 
 
 console.log( "Compare: ", compare );
+
+
+
+/* 
+++  Adds 1 unit to the variable
+--  Subs 1 unit to the variable
++=  Adds that many to a variable Ex. num = 10;   num += 5;   Value 15   num = num + 5
+-=  Subs that many to a variable Ex. num = 10;   num -= 5;   Value 5    num = num - 5
+*=  Multiplies that many to a variable  Ex. num = 10;   num *= 3    Value 30    num = num * 30
+/=  Divides that many to a variable Ex. num = 100   num /= 10   Value 10    num = num / 10
+%= 
+
+*/
